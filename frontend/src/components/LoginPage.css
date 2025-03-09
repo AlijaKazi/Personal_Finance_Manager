@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    height: auto;
+    min-height: 100vh;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  
+  .loginpage {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-head {
+    background: linear-gradient(135deg, #38B2AC,    #FBB6B6);
+        color: white;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;  
+  }
+  
+  .login-head h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+  .login-head p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .login-main-content {
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(148, 147, 147, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .form-group label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #8f8c8c;
+  }
+  
+  .form-group input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: none;
+  }
+  
+  .form-group input:focus {
+    border-color: #FF8C00;
+  }
+  
+  .login-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background:#38B2AC;
+    color: white;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .login-button:hover {
+    background: linear-gradient(135deg, #a6abad, #93989e);
+    transform: translateY(-5px);
+  }
+  
+  .signup-link {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
+  .signup-link a {
+    color: linear-gradient(135deg, #38B2AC,    #FBB6B6);
+    text-decoration: none;
+  }
+  input{
+    background-color: #f0f0f0;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    margin-top: 80px;
+    width: 100%;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+  }
+  

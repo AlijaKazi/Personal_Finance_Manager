@@ -1,0 +1,75 @@
+.learn-more-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f4f7fc;
+    text-align: center;
+  }
+  
+  .lm-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .lm-description {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 40px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .f-card {
+    background: #ffffff;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .f-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .f-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .f-card p {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  
+  .call-to-action {
+    font-size: 1.2rem;
+    color: #2c3e50;
+  }
+  
+  .call-to-action a {
+    color:  #38B2AC;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .call-to-action a:hover {
+    text-decoration: underline;
+  }
+  .feature-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+  

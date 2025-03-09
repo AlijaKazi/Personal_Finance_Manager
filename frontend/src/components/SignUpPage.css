@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.signup-page {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background: linear-gradient(135deg, #38B2AC, #FBB6B6);
+  color: white;
+  padding: 70px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.header h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.form {
+  background-color: #ffffff;
+  padding: 40px 80px;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  background-color: #f0f0f0;
+  transition: border-color 0.3s ease;
+  width: 100%; 
+  min-width: 320px; 
+}
+
+.form-group input:focus {
+  border-color: #FF8C00;
+}
+
+.signup-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  background: #38B2AC;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-transform: uppercase;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.signup-button:hover {
+  background: linear-gradient(135deg, #a6abad, #93989e);
+  transform: translateY(-5px);
+}
+
+.signup-link {
+  font-size: 1rem;
+  margin-top: 0px;
+}
+
+.signup-link a {
+  color: linear-gradient(135deg, #56CCF2, #2F80ED);
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #333;
+  color: white;
+  border-radius: 10px;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.footer p {
+  font-size: 1rem;
+}

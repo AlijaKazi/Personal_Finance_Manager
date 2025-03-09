@@ -1,0 +1,82 @@
+.transactions-page {
+    background-color: #f4f4f4;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .transactions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .transaction-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .transaction-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .transaction-description {
+    font-weight: bold;
+    flex: 1;
+  }
+  
+  .transaction-amount {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .quick-links {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .quick-links .link-item {
+    font-size: 1.1rem;
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .quick-links .link-item:hover {
+    color: #2980b9;
+  }
+  
+  .transactions-list p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
