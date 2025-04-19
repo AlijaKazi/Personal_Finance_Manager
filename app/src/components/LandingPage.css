@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .landing-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .landing-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .heading {
+    color: #f4f7fc;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .subheading {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .sh {
+    background: skyblue;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .sh-title {
+    background-color: skyblue;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .sh-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .button {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button-primary {
+    background-color: rgb(45, 150, 192);
+    color: white;
+    border: none;
+  }
+  
+  .button-primary:hover {
+    background-color: rgb(7, 64, 86);
+  }
+  
+  .button-secondary {
+    background-color: rgb(45, 150, 192);
+    color: white;
+    border: none;
+  }
+  
+  .button-secondary:hover {
+    background-color: rgb(7, 64, 86);  
+  }
+  .how-to-operate {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .hto-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 40px;
+  }
+  
+  .hto-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .hto-card {
+    background: #ffffff;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .hto-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .hto-card p {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  .why-choose-us {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .wcu-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 40px;
+  }
+  
+  .wcu-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .wcu-card {
+    background: #ffffff;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .wcu-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .wcu-card p {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  
+  .footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  
+  .footer p {
+    font-size: 0.9rem;
+  }
+  
